@@ -14,3 +14,12 @@ function checkVowel(str){
 }
 
 console.log(checkVowel("testing vowels"))
+
+
+
+// Solution2(Using regular expression)
+// function checkVowels(str){
+//     const matches=str.match(/[aeiou]/gi)
+//     return matches?matches.length:0
+//   }
+//   console.log(`${checkVowels("t")} matches`)
